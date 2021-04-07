@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DiscordBot\\SmisBot\\SmisBot.csproj": {}
+  },
+  "projects": {
+    "C:\\DiscordBot\\SmisBot\\SmisBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DiscordBot\\SmisBot\\SmisBot.csproj",
+        "projectName": "SmisBot",
+        "projectPath": "C:\\DiscordBot\\SmisBot\\SmisBot.csproj",
+        "packagesPath": "C:\\Users\\Smis\\.nuget\\packages\\",
+        "outputPath": "C:\\DiscordBot\\SmisBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Smis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Rest": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.32, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Reddit": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.12, 3.1.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
